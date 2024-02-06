@@ -7,7 +7,7 @@
     <meta name="keywords" content="magazyn, sklep, portfolio, Front-End, programowanie, warehause, shop">
     <meta name="author" content="Patryk Wiktor">
     <link rel="stylesheet" href="indexstyle.css">
-    <title>Magazyn</title>
+    <title>Warehause</title>
 </head>
 <body>
     <header>
@@ -17,5 +17,10 @@
             <p><a href="login.php">LOG IN</a></p>
             <p><a href="contact.php">Contact Form</a></p>
     </header>
+    <main>
+        <section class="ad">
+
+        </section>
+    </main>
 </body>
 </html>

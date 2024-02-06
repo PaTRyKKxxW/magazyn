@@ -3,13 +3,11 @@ body {
 }
 
 header {
-  background-color: antiquewhite;
+  background-color: white;
   position: relative;
   height: 100px;
   width: 100%;
   font-size: 20px;
-  border: 1px black solid;
-  border-radius: 10px;
   display: flex;
   flex-direction: row;
 }
