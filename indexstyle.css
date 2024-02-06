@@ -1,0 +1,29 @@
+body {
+  font-family: Gill Sans;
+}
+
+header {
+  background-color: antiquewhite;
+  position: relative;
+  height: 100px;
+  width: 100%;
+  font-size: 20px;
+  border: 1px black solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+header p{
+  margin-left: 10%;
+  margin:auto;
+}
+header a{
+  color: navy;
+}
+header a:visited{
+  color: burlywood;
+}
+header h1{
+  margin-left: 5px;
+}
+
