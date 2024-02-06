@@ -22,5 +22,8 @@
             <img src="pictures/Warehause.png" alt="magazine photo">
         </section>
     </main>
+    <footer>
+        <h1>stopka</h1>
+    </footer>
 </body>
 </html>

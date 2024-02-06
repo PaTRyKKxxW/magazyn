@@ -25,11 +25,15 @@ header h1{
   margin-left: 5px;
 }
 .ad{
-  height: 80%;
+  height: 70%;
   width: 100%;
 }
 .ad img{
-  height: 80%;
+  height: 70%;
   width: 100%;
+}
+footer{
+  width: 100%;
+  height: 10%;
 }
 
