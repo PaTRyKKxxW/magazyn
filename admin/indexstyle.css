@@ -35,5 +35,6 @@ header h1{
 footer{
   width: 100%;
   height: 10%;
+  clear: both;
 }
 
