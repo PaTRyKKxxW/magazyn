@@ -12,14 +12,14 @@
 <body>
     <header>
         <h1 style="color: navy;">Warehause.PW</h1>
-            <p><a href="add.php">Add a product</a></p>
-            <p><a href="modify.php">Modify Products</a></p>
-            <p><a href="login.php">LOG IN</a></p>
-            <p><a href="contact.php">Contact Form</a></p>
+            <p><a href="add/add.php">Add a product</a></p>
+            <p><a href="modify/modify.php">Modify Products</a></p>
+            <p><a href="login/login.php">LOG IN</a></p>
+            <p><a href="contact/contact.php">Contact Form</a></p>
     </header>
     <main>
         <section class="ad">
-
+            <img src="pictures/Warehause.png" alt="magazine photo">
         </section>
     </main>
 </body>

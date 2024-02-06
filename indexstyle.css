@@ -5,7 +5,7 @@ body {
 header {
   background-color: white;
   position: relative;
-  height: 100px;
+  height: 20%;
   width: 100%;
   font-size: 20px;
   display: flex;
@@ -23,5 +23,13 @@ header a:visited{
 }
 header h1{
   margin-left: 5px;
+}
+.ad{
+  height: 80%;
+  width: 100%;
+}
+.ad img{
+  height: 80%;
+  width: 100%;
 }
 
