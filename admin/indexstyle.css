@@ -24,9 +24,14 @@ header p {
 }
 header a {
   color: navy;
+  transition: 1s;
 }
 header a:visited {
   color: burlywood;
+}
+header a:hover {
+  color: black;
+  font-size: 24px;
 }
 header h1 {
   margin-left: 5px;
