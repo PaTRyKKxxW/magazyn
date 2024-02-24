@@ -1,41 +1,47 @@
 body {
-    font-family: Gill Sans;
-    background-image: url(../pictures/Warehause.png);
-  }
-  
-  header {
-    background-color: white;
-    position: relative;
-    height: 20%;
-    width: 100%;
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-  }
-  header p{
-    margin-left: 10%;
-    margin:auto;
-  }
-  header a{
-    color: navy;
-  }
-  header a:visited{
-    color: burlywood;
-  }
-  header h1{
-    margin-left: 5px;
-  }
-  main{
-    display: flex;
-    justify-content: center;
-  }
-  .logpanel{
-    border: 2px solid black;
-    text-align: center;
-    position: relative;
-    height: 400px;
-    width: 300px;
-    background-color: white;
-    opacity: 0.9;
-    padding: auto;
-  }
+  font-family: Gill Sans;
+  background-image: url(../pictures/Warehause.png);
+}
+
+header {
+  background-color: white;
+  position: relative;
+  height: 20%;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+header p {
+  margin-left: 10%;
+  margin: auto;
+}
+header a {
+  color: navy;
+}
+header a:visited {
+  color: burlywood;
+}
+header h1 {
+  margin-left: 5px;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  width: 100%;
+  height: 10%;
+  clear: both;
+}
+
+.logpanel {
+  border: 2px solid black;
+  text-align: center;
+  position: relative;
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  opacity: 0.9;
+  padding: auto;
+}
