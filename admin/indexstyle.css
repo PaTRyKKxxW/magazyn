@@ -5,6 +5,7 @@ body {
     background-position: center;
     min-height: 100vh;
     min-width: 100vh;
+    transition: 1s;
   }
 
 header {
@@ -15,6 +16,7 @@ header {
   font-size: 20px;
   display: flex;
   flex-direction: row;
+  transition: 1s;
 }
 header p {
   margin-left: 10%;
@@ -37,4 +39,6 @@ header h1 {
   height: 70%;
   width: 100%;
 }
+
+
 

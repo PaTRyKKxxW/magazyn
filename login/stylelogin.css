@@ -4,6 +4,7 @@ body {
   background-size: 100% 100%;
   min-height: 100vh;
   min-width: 100vh ;
+  transition: 1s;
 }
 
 header {
@@ -14,6 +15,7 @@ header {
   font-size: 20px;
   display: flex;
   flex-direction: row;
+  transition: 1s;
 }
 header p {
   margin-left: 10%;
@@ -43,7 +45,12 @@ main {
   opacity: 0.9;
   padding: 20px 0 0 0;
   margin: 30px auto;
+  transition: 1s;
 }
-.logpanel button{
+.logpanel button {
   margin: 20px 0 0 0;
 }
+.hiden{
+  display: none;
+}
+

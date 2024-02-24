@@ -7,6 +7,7 @@ let result = () => {
     window.location.href = "../admin/indexadmin.html";
     alert("logged in as admin");
   } else {
+    window.location.href = "login.html";
     alert("try again");
   }
 };
