@@ -131,8 +131,10 @@ footer span {
 span {
   font-weight: bold;
   font-size: 30px;
+  color: var(--color-white);
 }
 span p {
   font-weight: lighter;
   font-size: 20px;
+  color: rgb(239, 208, 150);
 }
