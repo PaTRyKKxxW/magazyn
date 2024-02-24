@@ -1,0 +1,101 @@
+body {
+  font-family: Gill Sans;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), #3551b5),
+    url(../pictures/Warehause.png);
+  background-size: 100% 100%;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+header {
+  background-color: white;
+  position: relative;
+  height: 20%;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+header p {
+  margin-left: 10%;
+  margin: auto;
+}
+header a {
+  color: navy;
+}
+header a:visited {
+  color: burlywood;
+}
+header h1 {
+  margin-left: 5px;
+}
+main {
+  text-align: center;
+}
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 90%;
+  max-width: 600px;
+}
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  font-size: 15px;
+}
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: text;
+  transition: 0.2s;
+}
+button {
+  padding: 10px 0;
+  color: #fff;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 50%;
+  cursor: pointer;
+}
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+button:hover {
+  background-color: #3551b5;
+  opacity: 0.8;
+}
+footer {
+  font-size: 20px;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer span {
+  display: block;
+}

@@ -9,8 +9,40 @@
       content="magazyn, sklep, portfolio, Front-End, programowanie, warehause, shop"
     />
     <meta name="author" content="Patryk Wiktor" />
-    <link rel="stylesheet" href="indexstyle.css" />
-    <title>Magazyn</title>
+    <link rel="stylesheet" href="contactstyle.css" />
+    <title>Contact form</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1 style="color: navy">Warehause.PW</h1>
+      <p><a href="../index.html">HOME</a></p>
+      <p><a href="../login/login.html">LOG IN</a></p>
+    </header>
+    <main>
+      <section class="contact">
+        <form>
+          <div class="input-group">
+            <input type="text" id="name" required />
+            <label for="">Your Name</label>
+          </div>
+          <div class="input-group">
+            <input type="number" id="number" required />
+            <label for="">Phone Number</label>
+          </div>
+          <div class="input-group">
+            <input type="email" id="email" required />
+            <label for="email">Email</label>
+          </div>
+          <div class="input-group">
+            <textarea id="message" rows="8"></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit">SEND</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <span>© 2024 Magazyn. Projekt i wykonanie Patryk Wiktor.</span> <br>
+    </footer>
+  </body>
 </html>
