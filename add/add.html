@@ -10,7 +10,7 @@
     />
     <meta name="author" content="Patryk Wiktor" />
     <link rel="stylesheet" href="addstyle.css" />
-    <title>Magazine</title>
+    <title>Add Product</title>
   </head>
   <body>
     <header>
@@ -33,6 +33,10 @@
             <input type="number" id="howmuch" required />
           </div>
           <div class="inputproduct">
+            <label for="price">Price[zł]: </label>
+            <input type="number" id="productprice" required />
+          </div>
+          <div class="inputproduct">
             <label for="">Product type</label>
             <select name="producttype" id="producttype">
               <option>FOOD</option>
@@ -42,7 +46,7 @@
               <option>PC</option>
             </select>
           </div>
-          <button type="submit">ADD</button>
+          <button id="addBlockButton">ADD</button>
         </form>
       </section>
       <section class="preview">
@@ -54,6 +58,10 @@
         <span
           >How much: <br />
           <p id="preview-how-much"></p>
+        </span>
+        <span
+          >Price: <br />
+          <p id="preview-price"></p>
         </span>
         <span
           >Product type: <br />
