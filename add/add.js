@@ -7,7 +7,7 @@ const previewHowMuch = document.querySelector("#preview-how-much");
 const previewProductType = document.querySelector("#preview-product-type");
 const previewPrice = document.querySelector("#preview-price");
 let btn = document.querySelector(`#addBlockButton`);
-let previewBlock = document.querySelector(`#previewBlock`);
+let previewBlock = document.querySelector(`#preview-Block`);
 
 const updatepreview = (text, element) => {
   element.textContent = text;
@@ -21,8 +21,7 @@ const preview = () => {
   DownloadValue();
 };
 
-
-let DownloadValue = (preview) => {
+let DownloadValue = () => {
   let inputproductname = previewProductName.textContent;
   let inputproducthowmuch = previewHowMuch.textContent;
   let inputproducttype = previewProductType.textContent;
@@ -35,7 +34,6 @@ let DownloadValue = (preview) => {
   );
 };
 
-
 let write = (
   inputproductname,
   inputproducthowmuch,
@@ -47,7 +45,6 @@ let write = (
   console.log("Typ produktu: " + inputproducttype);
   console.log("Cena produktu: " + inputproductprice);
 };
-
 
 let importBlock = (
   inputproducthowmuch,
@@ -79,9 +76,11 @@ let importBlock = (
     "</p>" +
     "</span>" +
     "</section>";
+
+  previewBlock = previewBlock.innerHTML = data;
 };
 
-btn.addEventListener(`click`, importBlock);
+btn.addEventListener(`click`, importBlock());
 
 productname.addEventListener("input", preview);
 producthowmuch.addEventListener("input", preview);
